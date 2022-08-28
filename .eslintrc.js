@@ -32,7 +32,7 @@ module.exports = {
     indent: [ "error", 2 ],
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/explicit-member-accessibility": ["error", {"accessibility": "no-public"}],
+    "@typescript-eslint/explicit-member-accessibility": ["error", {"accessibility": "explicit"}],
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/await-thenable": "error",
